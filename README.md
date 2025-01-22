@@ -1,6 +1,13 @@
 ./keyhunt -m rmd160 -f tests/66.rmd -r 40000000000000000:48000000000000000 -l compress -R -n 20480 -q
 
+
+
+
 ./keyhunt -m rmd160 -f tests/66.rmd -r 48000000000000000:50000000000000000 -l compress -R -n 20480 -q
+
+
+
+
 
 ./keyhunt -m rmd160 -f tests/66.rmd -r 50000000000000000:58000000000000000 -l compress -R -n 20480 -q
 
@@ -9,6 +16,33 @@
 ./keyhunt -m rmd160 -f tests/66.rmd -r 60000000000000000:68000000000000000 -l compress -R -n 20480 -q
 
 ./keyhunt -m rmd160 -f tests/66.rmd -r 68000000000000000:7ffffffffffffffff -l compress -R -n 20480 -q
+
+
+
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 40000000000000000:44000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 44000000000000000:48000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 48000000000000000:4c000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 4c000000000000000:50000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 50000000000000000:54000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 54000000000000000:58000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 58000000000000000:5c000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 5c000000000000000:60000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 60000000000000000:64000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 64000000000000000:68000000000000000 -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 68000000000000000:6cfffffffffffffff -l compress -R -n 20480 -q
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 6cfffffffffffffff:7ffffffffffffffff -l compress -R -n 20480 -q
 
 
 

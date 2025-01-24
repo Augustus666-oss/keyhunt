@@ -1,3 +1,7 @@
+./keyhunt -m bsgs -f tests/135.txt -r 4000000000000000000000000000000000:40a3d70a3d70a3d70a3d70a3d70a3d70a4 -n 0x400000000000 -k 4096 -s 10 -B random
+
+
+
 ./keyhunt -m rmd160 -f tests/66.rmd -r 40000000000000000:48000000000000000 -l compress -R -n 20480 -q
 
 

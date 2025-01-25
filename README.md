@@ -1,52 +1,49 @@
-./keyhunt -m bsgs -f tests/135.txt -r 4000000000000000000000000000000000:40a3d70a3d70a3d70a3d70a3d70a3d70a4 -n 0x400000000000 -k 4096 -s 10 -B random
 
-
-
-./keyhunt -m rmd160 -f tests/66.rmd -r 40000000000000000:48000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 40000000000000000:48000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
 
 
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 48000000000000000:50000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 48000000000000000:50000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
 
 
 
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 50000000000000000:58000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 50000000000000000:58000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 58000000000000000:60000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 58000000000000000:60000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 60000000000000000:68000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 60000000000000000:68000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 68000000000000000:7ffffffffffffffff -l compress -R -n 20480 -q
-
-
+./keyhunt -m rmd160 -f tests/66.rmd -r 68000000000000000:7ffffffffffffffff -l compress  -R -n 102400000  -z 8 -t 32
 
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 40000000000000000:44000000000000000 -l compress -R -n 20480 -q
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 44000000000000000:48000000000000000 -l compress -R -n 20480 -q
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 48000000000000000:4c000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 40000000000000000:44000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 4c000000000000000:50000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 44000000000000000:48000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 50000000000000000:54000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 48000000000000000:4c000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 54000000000000000:58000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 4c000000000000000:50000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 58000000000000000:5c000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 50000000000000000:54000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 5c000000000000000:60000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 54000000000000000:58000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 60000000000000000:64000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 58000000000000000:5c000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 64000000000000000:68000000000000000 -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 5c000000000000000:60000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 68000000000000000:6cfffffffffffffff -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 60000000000000000:64000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
 
-./keyhunt -m rmd160 -f tests/66.rmd -r 6cfffffffffffffff:7ffffffffffffffff -l compress -R -n 20480 -q
+./keyhunt -m rmd160 -f tests/66.rmd -r 64000000000000000:68000000000000000 -l compress  -R -n 102400000  -z 8 -t 32
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 68000000000000000:6cfffffffffffffff -l compress  -R -n 102400000  -z 8 -t 32
+
+./keyhunt -m rmd160 -f tests/66.rmd -r 6cfffffffffffffff:7ffffffffffffffff -l compress  -R -n 102400000  -z 8 -t 32
 
 
 
